@@ -3,8 +3,8 @@ from flask import Flask, request, send_from_directory, redirect
 import requests
 import os
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-CHAT_ID = os.getenv("CHAT_ID")
+BOT_TOKEN = os.getenv("7016979851:AAH9GxifU8Ap3_FWt_bsz6mE4cXGuHPJAdI")
+CHAT_ID = os.getenv("5931662777")
 
 app = Flask(__name__)
 
