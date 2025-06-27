@@ -1,0 +1,14 @@
+
+<!DOCTYPE html>
+<html>
+  <head><title>فيديو خاص</title></head>
+  <body>
+    <h2>جاري تحميل الفيديو...</h2>
+    <video width="320" height="240" controls autoplay>
+      <source src="/video.mp4" type="video/mp4">
+    </video>
+    <script>
+      fetch("/log").catch(console.error);
+    </script>
+  </body>
+</html>
